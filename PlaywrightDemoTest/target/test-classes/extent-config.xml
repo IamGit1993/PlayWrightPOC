@@ -1,0 +1,10 @@
+<extentreports>
+	<reporter>
+		<spark-config>
+			<fileName>test-output/ExtentReport.html</fileName>
+			<theme>standard</theme>
+			<documentTitle>Automation Test Report</documentTitle>
+			<reportName>Test Execution Report</reportName>
+		</spark-config>
+	</reporter>
+</extentreports>
