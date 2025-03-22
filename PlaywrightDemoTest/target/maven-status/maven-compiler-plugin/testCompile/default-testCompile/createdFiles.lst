@@ -1,4 +1,7 @@
+stepdefinitions\DashboardSteps.class
 pageObjects\LoginPage.class
 stepdefinitions\LoginSteps.class
 testrunners\TestRunner.class
 utils\PlaywrightFactory.class
+hooks\Hooks.class
+pageObjects\DashboardPage.class

@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: testrunners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.72 s -- in testrunners.TestRunner
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.57 s <<< FAILURE! -- in testrunners.TestRunner
+Login Functionality.Successful login with valid credentials -- Time elapsed: 17.32 s <<< FAILURE!
+java.lang.AssertionError: Login failed!
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepdefinitions.LoginSteps.iShouldBeLoggedInSuccessfully(LoginSteps.java:80)
+	at ✽.User should be logged in successfully(file:///C:/Users/abhis/git/PlayWrightPOC/PlaywrightDemoTest/src/test/resources/features/login.feature:9)
+

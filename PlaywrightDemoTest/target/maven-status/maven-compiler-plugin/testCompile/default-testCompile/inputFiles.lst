@@ -1,5 +1,7 @@
-C:\Users\abhis\eclipse-workspace\PlaywrightDemoTest\src\test\java\pageObjects\LoginPage.java
-C:\Users\abhis\eclipse-workspace\PlaywrightDemoTest\src\test\java\stepdefinitions\LoginSteps.java
-C:\Users\abhis\eclipse-workspace\PlaywrightDemoTest\src\test\java\testrunners\TestRunner.java
-C:\Users\abhis\eclipse-workspace\PlaywrightDemoTest\src\test\java\hooks\Hooks.java
-C:\Users\abhis\eclipse-workspace\PlaywrightDemoTest\src\test\java\utils\PlaywrightFactory.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\pageObjects\LoginPage.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\stepdefinitions\DashboardSteps.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\stepdefinitions\LoginSteps.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\pageObjects\DashboardPage.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\testrunners\TestRunner.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\hooks\Hooks.java
+C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\src\test\java\utils\PlaywrightFactory.java
