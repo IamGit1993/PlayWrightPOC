@@ -12,7 +12,7 @@ Scenario: Verify Dashboard functionilty tabs
  Scenario: Verify Logout button is Present
     Given User navigate to the login page
     When User enter username "student"
-    And User enter password "Password13"
+    And User enter password "Password123"
     And User click on login button
  		Then User should verify "Log out" button is present
  		Then User click on "Log out" button

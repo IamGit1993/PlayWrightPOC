@@ -25,6 +25,7 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>7.14.0</version>
+			<scope>test</scope>
 		</dependency>
 
 		<!-- JUnit for Running Tests -->

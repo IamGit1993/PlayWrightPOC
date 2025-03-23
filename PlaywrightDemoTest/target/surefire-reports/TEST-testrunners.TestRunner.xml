@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.TestRunner" time="17.573" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.TestRunner" time="17.662" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\abhis\AppData\Local\Temp\surefire12317292913789293608\surefirebooter-20250322214742314_3.jar C:\Users\abhis\AppData\Local\Temp\surefire12317292913789293608 2025-03-22T21-47-42_041-jvmRun1 surefire-20250322214742314_1tmp surefire_0-20250322214742314_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\abhis\AppData\Local\Temp\surefire16570630819779818094\surefirebooter-20250323090325859_3.jar C:\Users\abhis\AppData\Local\Temp\surefire16570630819779818094 2025-03-23T09-03-25_588-jvmRun1 surefire-20250323090325859_1tmp surefire_0-20250323090325859_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\target\test-classes;C:\Users\abhis\git\PlayWrightPOC\PlaywrightDemoTest\target\classes;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\abhis\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\abhis\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\abhis\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abhis\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\abhis\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\abhis\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\abhis\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\abhis\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\abhis\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\abhis\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\abhis\.m2\repository\com\microsoft\playwright\playwright\1.45.0\playwright-1.45.0.jar;C:\Users\abhis\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\abhis\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\abhis\.m2\repository\com\microsoft\playwright\driver\1.45.0\driver-1.45.0.jar;C:\Users\abhis\.m2\repository\com\microsoft\playwright\driver-bundle\1.45.0\driver-bundle-1.45.0.jar;C:\Users\abhis\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\abhis\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\abhis\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\abhis\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\abhis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\abhis\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\abhis\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\abhis\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\abhis\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\abhis\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\abhis\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\abhis\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.8.0\extentreports-cucumber7-adapter-1.8.0.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\extent-pdf-report\2.7.0\extent-pdf-report-2.7.0.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.10.0\cucumber-pdf-report-2.10.0.jar;C:\Users\abhis\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\abhis\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\abhis\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\abhis\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\abhis\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\abhis\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\abhis\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\abhis\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\abhis\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\abhis\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\abhis\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\abhis\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\abhis\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\abhis\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\abhis\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\abhis\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\abhis\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\abhis\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\abhis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abhis\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abhis\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\abhis\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\abhis\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\abhis\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\abhis\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\abhis\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\abhis\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\abhis\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\abhis\.m2\repository\org\apache\pdfbox\pdfbox\2.0.27\pdfbox-2.0.27.jar;C:\Users\abhis\.m2\repository\org\apache\pdfbox\fontbox\2.0.27\fontbox-2.0.27.jar;C:\Users\abhis\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\abhis\.m2\repository\com\itextpdf\itextpdf\5.5.13.3\itextpdf-5.5.13.3.jar;C:\Users\abhis\.m2\repository\com\google\protobuf\protobuf-java\3.23.4\protobuf-java-3.23.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="extent.reporter.spark.start" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\abhis\AppData\Local\Temp\surefire12317292913789293608\surefirebooter-20250322214742314_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhis\AppData\Local\Temp\surefire16570630819779818094\surefirebooter-20250323090325859_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.24+7-LTS-271"/>
@@ -55,7 +55,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\Tools\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Users\abhis\AppData\Local\Programs\Python\Python311-32\Scripts\;C:\Users\abhis\AppData\Local\Programs\Python\Python311-32\;C:\Users\abhis\AppData\Local\Programs\Python\Launcher\;C:\Users\abhis\AppData\Local\Microsoft\WindowsApps;C:\Users\abhis\AppData\Roaming\npm;C:\Users\abhis\OneDrive\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\Tools\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Users\abhis\AppData\Local\Programs\Python\Python311-32\Scripts\;C:\Users\abhis\AppData\Local\Programs\Python\Python311-32\;C:\Users\abhis\AppData\Local\Programs\Python\Launcher\;C:\Users\abhis\AppData\Local\Microsoft\WindowsApps;C:\Users\abhis\AppData\Roaming\npm;C:\windows\system32;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.24+7-LTS-271"/>
@@ -63,13 +63,85 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Successful login with valid credentials" classname="Login Functionality" time="17.319">
-    <failure message="Login failed!" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed!
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at stepdefinitions.LoginSteps.iShouldBeLoggedInSuccessfully(LoginSteps.java:80)
-	at ✽.User should be logged in successfully(file:///C:/Users/abhis/git/PlayWrightPOC/PlaywrightDemoTest/src/test/resources/features/login.feature:9)
-]]></failure>
+  <testcase name="Verify Dashboard functionilty tabs" classname="Dashboard Functionality" time="8.855">
+    <system-out><![CDATA[
+Scenario: Verify Dashboard functionilty tabs # src/test/resources/features/dashboard.feature:4
+🚀 Starting Scenario: Verify Dashboard functionilty tabs
+
+    Embedding Screenshot [image/png 39060 bytes]
+
+
+    Navigated to Url Successfully !!
+
+  Given User navigate to the login page      # stepdefinitions.LoginSteps.iNavigateToLoginPage()
+
+    User is able to enter username successfully
+
+  When User enter username "student"         # stepdefinitions.LoginSteps.iEnterUsername(java.lang.String)
+
+    User is able to enter password successfully
+
+  And User enter password "Password123"      # stepdefinitions.LoginSteps.iEnterPassword(java.lang.String)
+
+    User is able to click on Submit button successfully
+
+  And User click on login button             # stepdefinitions.LoginSteps.iClickLoginButton()
+Element present: true
+Element present: true
+Element present: true
+Element present: true
+Element present: true
+
+    Embedding Screenshot [image/png 37797 bytes]
+
+
+    User is able to verify tabs [Home, Practice, Courses, Blog, Contact]
+
+  Then Verify different tabs are present     # stepdefinitions.DashboardSteps.verify_different_tabs_are_present(io.cucumber.datatable.DataTable)
+    | Home | Practice | Courses | Blog | Contact |
+✅ Scenario Completed: Verify Dashboard functionilty tabs
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Logout button is Present" classname="Dashboard Functionality" time="4.336">
+    <system-out><![CDATA[
+Scenario: Verify Logout button is Present             # src/test/resources/features/dashboard.feature:12
+🚀 Starting Scenario: Verify Logout button is Present
+
+    Embedding Screenshot [image/png 39060 bytes]
+
+
+    Navigated to Url Successfully !!
+
+  Given User navigate to the login page               # stepdefinitions.LoginSteps.iNavigateToLoginPage()
+
+    User is able to enter username successfully
+
+  When User enter username "student"                  # stepdefinitions.LoginSteps.iEnterUsername(java.lang.String)
+
+    User is able to enter password successfully
+
+  And User enter password "Password123"               # stepdefinitions.LoginSteps.iEnterPassword(java.lang.String)
+
+    User is able to click on Submit button successfully
+
+  And User click on login button                      # stepdefinitions.LoginSteps.iClickLoginButton()
+Element present: true
+
+    Log out is present
+
+  Then User should verify "Log out" button is present # stepdefinitions.DashboardSteps.user_should_verify_button_is_present(java.lang.String)
+
+    User able to click on Log out
+
+  Then User click on "Log out" button                 # stepdefinitions.DashboardSteps.user_click_on_button(java.lang.String)
+
+    User able to verify that application logged out 
+
+  Then User should verify the session is terminated   # stepdefinitions.DashboardSteps.user_should_verify_the_session_is_terminated()
+✅ Scenario Completed: Verify Logout button is Present
+]]></system-out>
+  </testcase>
+  <testcase name="Successful login with valid credentials" classname="Login Functionality" time="4.153">
     <system-out><![CDATA[
 Scenario: Successful login with valid credentials # src/test/resources/features/login.feature:4
 🚀 Starting Scenario: Successful login with valid credentials
@@ -87,18 +159,15 @@ Scenario: Successful login with valid credentials # src/test/resources/features/
 
     User is able to enter password successfully
 
-  And User enter password "Password13"            # stepdefinitions.LoginSteps.iEnterPassword(java.lang.String)
+  And User enter password "Password123"           # stepdefinitions.LoginSteps.iEnterPassword(java.lang.String)
 
-    user is able to click on Submit button successfully
+    User is able to click on Submit button successfully
 
   And User click on login button                  # stepdefinitions.LoginSteps.iClickLoginButton()
-  Then User should be logged in successfully      # stepdefinitions.LoginSteps.iShouldBeLoggedInSuccessfully()
-      java.lang.AssertionError: Login failed!
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at stepdefinitions.LoginSteps.iShouldBeLoggedInSuccessfully(LoginSteps.java:80)
-	at âœ½.User should be logged in successfully(file:///C:/Users/abhis/git/PlayWrightPOC/PlaywrightDemoTest/src/test/resources/features/login.feature:9)
 
+    User is able to login successfully
+
+  Then User should be logged in successfully      # stepdefinitions.LoginSteps.iShouldBeLoggedInSuccessfully()
 ✅ Scenario Completed: Successful login with valid credentials
 ]]></system-out>
   </testcase>

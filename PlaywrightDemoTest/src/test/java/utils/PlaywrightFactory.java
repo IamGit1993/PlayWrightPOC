@@ -3,6 +3,8 @@ package utils;
 
 import com.microsoft.playwright.*;
 
+import hooks.Hooks;
+
 public class PlaywrightFactory {
 	
 	
@@ -29,6 +31,8 @@ public class PlaywrightFactory {
 	        page = context.newPage();
 	        return page;
 	    }
+	    
+	   
 
 	    public static void closeBrowser() {
 	    	
