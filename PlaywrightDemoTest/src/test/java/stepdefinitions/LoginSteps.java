@@ -127,4 +127,20 @@ public class LoginSteps {
 	        throw e;
 	    }
 	}
+	@Then("User should not be logged in successfully")
+	public void iShouldNotBeLoggedInSuccessfully() {
+	    try {
+	        // Assert that the URL should not contains "logged-in-successfully" to verify login success
+	        Assert.assertFalse("Login Success!", page.url().contains("logged-in-successfully"));
+
+	        // Log success message indicating Unsuccessful login - Negative scenario
+	        scenario.log("User is not able to login");
+	    } catch (Exception e) {
+	        // Log failure message if login verification fails
+	        scenario.log("User is able to login with invalid credientials");
+
+	        // Rethrow the exception to mark the test as failed
+	        throw e;
+	    }
+	}
 }
